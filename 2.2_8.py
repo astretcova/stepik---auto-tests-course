@@ -23,6 +23,7 @@ try:
 finally:
     # успеваем скопировать код за 30 секунд
     time.sleep(10)
+    #browser.implicitly_wait(5)
     # закрываем браузер после всех манипуляций
     browser.quit()
 
