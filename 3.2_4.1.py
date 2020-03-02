@@ -1,6 +1,6 @@
-#import os
-from selenium import webdriver
 import time
+
+from selenium import webdriver
 
 try:
     link = "http://suninjuly.github.io/registration2.html"
